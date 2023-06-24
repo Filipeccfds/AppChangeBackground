@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/img_01"
+    android:id="@+id/tela_principal">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="120dp"
+        android:layout_width="200dp"
+        android:inputType="text|textAutoComplete"
+        android:layout_height="wrap_content"
+        android:text="Bem Vindo ao nosso app!"
+        />
+    <TextView
+        android:id="@+id/numeroclick"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="130dp"
+        android:layout_width="200dp"
+        android:inputType="text|textAutoComplete"
+        android:layout_height="wrap_content"
+        android:text="O Numero clicado: "
+        />
+
+    <EditText
+        android:id="@+id/textomodificavel"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <Button
+        android:id="@+id/botaodeclique"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:text="Trocar Imagen"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
